@@ -7,6 +7,8 @@ console.log('05.toLowerCase(Em minúscula): '+desafio.toLowerCase())
 console.log('06.Parte da palavra(Substr()):' +desafio.substr(0,7))
 console.log('07.Parte da palavra(Substr()):' +desafio.substr(3,4))
 console.log('08.Verificando(include()):' +desafio.includes('Script'))
+console.log('09.Dividindo com método split:' +desafio.split(""))
+console.log('10.Dividindo com método split(espaço):' +desafio.split(" "))
 
 
     /*let endereço = 'Rua dos Pinheiros'
