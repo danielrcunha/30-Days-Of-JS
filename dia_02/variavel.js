@@ -1,9 +1,13 @@
 //01. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
 let desafio = '30 dias de JavaScript'
-console.log('TESTE:', desafio)
-console.log('Tamanho da String: '+desafio.length)
-console.log('Em maiúscula: '+desafio.toUpperCase())
-console.log('Em minúscula: '+desafio.toLowerCase())
+console.log('02.Teste:', desafio)
+console.log('03.Tamanho da String: '+desafio.length)
+console.log('04.toUpperCase(maiúscula): '+desafio.toUpperCase())
+console.log('05.toLowerCase(Em minúscula): '+desafio.toLowerCase())
+console.log('06.Parte da palavra(Substr()):' +desafio.substr(0,7))
+console.log('07.Parte da palavra(Substr()):' +desafio.substr(3,4))
+console.log('08.Verificando(include()):' +desafio.includes('Script'))
+
 
     /*let endereço = 'Rua dos Pinheiros'
     console.log(`Eu moro na "${endereço}"`);    */
