@@ -1,3 +1,6 @@
 //01. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
-let ntitle = '30_Days_Of_JavaScript'
-console.log(ntitle)
+let desafio = '30 dias de JavaScript'
+console.log('TESTE:', desafio)
+
+    /*let endereço = 'Rua dos Pinheiros'
+    console.log(`Eu moro na "${endereço}"`);    */
