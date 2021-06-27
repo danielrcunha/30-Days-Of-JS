@@ -2,6 +2,8 @@
 let desafio = '30 dias de JavaScript'
 console.log('TESTE:', desafio)
 console.log('Tamanho da String: '+desafio.length)
+console.log('Em maiúscula: '+desafio.toUpperCase())
+console.log('Em minúscula: '+desafio.toLowerCase())
 
     /*let endereço = 'Rua dos Pinheiros'
     console.log(`Eu moro na "${endereço}"`);    */
