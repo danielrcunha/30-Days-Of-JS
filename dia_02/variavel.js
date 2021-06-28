@@ -13,6 +13,7 @@ console.log('09.Dividindo com método split:' +desafio.split(""))
 console.log('10.Dividindo com método split(espaço):' +desafio.split(" "))
 console.log('11.Dividindo com método split(array):' +empresas.split(","))
 console.log('12.Substituir string: ' +desafio.replace("JavaScript", "Python"))
+console.log('13.15° string de "30 Dias de JavaScript":' +desafio.charAt(15))
 
 
     /*let endereço = 'Rua dos Pinheiros'
