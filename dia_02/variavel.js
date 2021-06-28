@@ -18,6 +18,7 @@ console.log('14.Posição do J: '+desafio.charCodeAt(15))
 console.log('15.Posição do "a" em "30 Dias de JavaScript":' +desafio.indexOf("a"))
 console.log('16.última ocorrência em 30 dias de JavaScript: '+desafio.lastIndexOf('a'))
 console.log('17.Achar a ocorrencia da palavra "porque"'+desafio.indexOf("porque"))
+console.log('18.Achar a ocorrência da palavra "porque": '+desafio.lastIndexOf('porque'))
 
     /*let endereço = 'Rua dos Pinheiros'
     console.log(`Eu moro na "${endereço}"`);    */
