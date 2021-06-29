@@ -7,6 +7,8 @@ let n2_exer01 = 'Não há exercício melhor para o coração do que estender a m
 let n2_exer02 = '"Love is not patronizing and charity isnt about pity, it is about love. Charity and love are the same -- with charity you give love, so dont just give money but reach out your hand instead.'
 let num = '9.8'
 let numInt = parseFloat(num)
+let n2_exer05 = 'python'
+let n2_exer06 = 'Espero que este curso não esteja cheio de jargões'
 
 
 console.log('02.Teste:', desafio)
@@ -37,6 +39,9 @@ console.log('01.n2.Imprimir frase de John Holmes: ' +n2_exer01)
 console.log('02.n2.Imprimir frase de Madre Teresa: ' +n2_exer02)
 console.log('03.n2.: ',typeof(10))
 console.log('04.n2.: '+(numInt))
+console.log('05.Verificar se "on" é parte da string: ' +n2_exer05.indexOf('on'))
+console.log('06.Verificar se "on" é parte da string: ' +desafio.indexOf('jargões'))
+
 
 
 
