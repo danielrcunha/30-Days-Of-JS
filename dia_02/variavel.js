@@ -21,7 +21,8 @@ console.log('17.Achar a ocorrencia da palavra "porque"'+desafio.indexOf("porque"
 console.log('18.Achar a ocorrência da palavra "porque": '+desafio.lastIndexOf("porque"))
 console.log('19.Localizar palavra "porque"' +desafio.search("porque"))
 console.log('20.Remover espaço em branco: ' +desafio.trim())
-console.log('21.True or False com "startsWith": ' +desafio.startsWith('30 dias'))
+console.log('21.True or False com "startsWith()": ' +desafio.startsWith('30 dias'))
+console.log('22.True or False com "endsWith()": ' +desafio.endsWith('30 dias'))
 
 
 
