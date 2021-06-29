@@ -1,6 +1,8 @@
 //01. Declare a variable named challenge and assign it to an initial value '30 Days Of JavaScript'.
 let desafio = '30 dias de JavaScript'
 let empresas = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
+let parte1 = '30 dias de'
+let parte2 = 'JavaScript'
 
 console.log('02.Teste:', desafio)
 console.log('03.Tamanho da String: '+desafio.length)
@@ -23,6 +25,11 @@ console.log('19.Localizar palavra "porque"' +desafio.search("porque"))
 console.log('20.Remover espaço em branco: ' +desafio.trim())
 console.log('21.True or False com "startsWith()": ' +desafio.startsWith('30 dias'))
 console.log('22.True or False com "endsWith()": ' +desafio.endsWith('30 dias'))
+console.log('23.Encontrar todos os "as" com o "match()":' +desafio.match('as'))
+console.log('24.Concatenar usando o concat(): ' +parte1.concat(' ','JavaScript'))
+console.log('25."30 Dias de JavaScript" 2x com repeat(): ' +desafio.repeat(2))
+
+
 
 
 
