@@ -9,6 +9,8 @@ let num = '9.8'
 let numInt = parseFloat(num)
 let n2_exer05 = 'python'
 let n2_exer06 = 'Espero que este curso não esteja cheio de jargões'
+let numAleatorio
+                   
 
 
 console.log('02.Teste:', desafio)
@@ -37,10 +39,27 @@ console.log('24.Concatenar usando o concat(): ' +parte1.concat(' ','JavaScript')
 console.log('25."30 Dias de JavaScript" 2x com repeat(): ' +desafio.repeat(2))
 console.log('01.n2.Imprimir frase de John Holmes: ' +n2_exer01)
 console.log('02.n2.Imprimir frase de Madre Teresa: ' +n2_exer02)
-console.log('03.n2.: ',typeof(10))
-console.log('04.n2.: '+(numInt))
-console.log('05.Verificar se "on" é parte da string: ' +n2_exer05.indexOf('on'))
-console.log('06.Verificar se "on" é parte da string: ' +desafio.indexOf('jargões'))
+
+//3
+console.log('03.n2."10" é exatamente igual a 10:' +typeof '10' === 10)  
+console.log(parseInt('10') === 10)
+
+//4
+console.log(num === '10')
+let num2 = 0.2
+console.log(parseFloat(num))
+console.log(parseFloat(num2))
+console.log(parseFloat(num)+parseFloat(num2)===10)
+
+
+//05. Verifique se 'on' é encontrado tanto em python quanto em jargão
+
+
+
+
+
+
+
 
 
 
