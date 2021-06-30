@@ -51,10 +51,14 @@ console.log(parseFloat(num))
 console.log(parseFloat(num2))
 console.log(parseFloat(num)+parseFloat(num2)===10)
 
-
 //05. Verifique se 'on' é encontrado tanto em python quanto em jargão
+console.log('Python'.includes('on'))
+console.log('jargon'.includes('on'))
 
+//06.Espero que este curso não esteja cheio de jargões . Verifique se há jargão na frase.
+console.log(n2_exer06.includes('jargão'))
 
+//07.Gere um número aleatório entre 0 e 100 inclusive.
 
 
 
