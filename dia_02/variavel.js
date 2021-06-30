@@ -10,6 +10,7 @@ let numInt = parseFloat(num)
 let n2_exer05 = 'python'
 let n2_exer06 = 'Espero que este curso não esteja cheio de jargões'
 let numAleatorio
+let n2_exer12 = 'Você não pode terminar uma frase com porque porque porque é uma conjunção'
                    
 
 
@@ -59,6 +60,31 @@ console.log('jargon'.includes('on'))
 console.log(n2_exer06.includes('jargão'))
 
 //07.Gere um número aleatório entre 0 e 100 inclusive.
+console.log(Math.floor(Math.random() * 100) +0)
+
+//08 Gere um número aleatório entre 50 e 100 inclusive.
+console.log(Math.floor(Math.random() * 100) + 50)
+            
+//09 Gere um número aleatório entre 0 e 255, inclusive.
+//console.log(Math.floor(Math.random() * 255))
+console.log(Math.floor(Math.random() * 255) +0)
+
+//10. Acesse os caracteres da string 'JavaScript' usando um número aleatório.
+console.log(parte2.charAt((Math.floor(Math.random() * 10) +1)))
+
+//11. Use console.log () e caracteres de escape para imprimir o seguinte padrão.
+
+console.log(1,  1,  1,  1,  1 ) 
+console.log(2,  1,  2,  4,  8 )
+console.log(3,  1,  3,  9,  27  )
+console.log(4,  1,  4,  16, 64  )
+console.log(5,  1,  5,  25, 125 )
+
+//12.Use substr para cortar a frase porque porque porque da seguinte frase: 
+//'Você não pode terminar uma frase com porque porque porque é uma conjunção'
+console.log(n2_exer12.replace('porque porque porque',''))
+
+
 
 
 
