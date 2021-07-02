@@ -1,4 +1,6 @@
-//1
+DAY 03 - EXERCISES
+
+||======================================= QUESTION 01 ====||
 let firstname = 'Daniel'
 let lastName = 'Cunha'
 let country = 'Brasil'
@@ -15,12 +17,9 @@ console.log(typeof age)
 console.log(typeof isMarried)
 console.log(typeof year)
 
-//2
+||======================================= QUESTION 02 ====||
 let num1 = 10
 let num2 = '10'
-console.log(num1 === num2)
+console.log(num1 === num2) //falso, pois são tipos diferentes
 
-
-
-
-
+||======================================= QUESTION 03 ====||
