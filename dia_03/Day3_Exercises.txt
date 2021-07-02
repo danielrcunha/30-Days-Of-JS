@@ -23,3 +23,8 @@ let num2 = '10'
 console.log(num1 === num2) //falso, pois são tipos diferentes
 
 ||======================================= QUESTION 03 ====||
+let num3 = '8.9'
+let num4 = 10
+console.log(parseInt(num3) === num4)
+
+||======================================= QUESTION 04 ====||
