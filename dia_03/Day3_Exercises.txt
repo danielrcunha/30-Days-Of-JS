@@ -72,3 +72,13 @@ console.log(now.getDate() + '/' + now.getMonth() + '/' + now.getFullYear())
 console.log(now.getDate())  
 console.log(now.getHours())
 console.log(now.getMinutes())
+
+||======================================= NIVEL 02 =======||
+||======================================= QUESTION 01 ====||
+Escreva um script que peça ao usuário para inserir a base e a altura do triângulo e calcular a 
+área de um triângulo (área = 0,5 x b x h).
+
+Insira a base: 20
+Insira a altura: 10
+A área do triângulo é 50
+

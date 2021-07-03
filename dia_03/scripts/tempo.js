@@ -54,13 +54,13 @@ console.log(4 > 3 || 10 < 12) //t
 console.log(4 > 3 || 10 > 12) //f
 console.log(!(4 > 3))//f
 console.log(!(4 < 3))//t
-console.log(!(false))
+console.log(!(false))//t
 console.log(!(4 > 3 && 10 < 12))
 console.log(!(4 > 3 && 10 > 12))//t
 console.log(!(4 === '4'))//t
 //There is no 'on' in both dragon and python
 
-*/
+
 //7
 const now = new Date()
 console.log(now)
@@ -71,7 +71,21 @@ console.log(now.getDate() + '/' + now.getMonth() + '/' + now.getFullYear())
 console.log(now.getDate())  
 console.log(now.getHours())
 console.log(now.getMinutes())
-console.log(allSeconds())
+
+*/
+
+//nivel 02
+//01
+let base = prompt('Base do triângulo:')
+console.log(base)
+
+let altura = prompt('Altura do triângulo:')
+console.log(altura)
+
+let area = 0.5 * base * altura
+console.log(area)
+
+
 
 
 
