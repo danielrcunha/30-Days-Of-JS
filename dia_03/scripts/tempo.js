@@ -66,16 +66,12 @@ const now = new Date()
 console.log(now)
 console.log(now.getUTCFullYear())
 console.log(now.getMonth())
-console.log(now.getDate())
-
-/*
-
-
-What is the day today as a number?
-What is the hours now?
-What is the minutes now?
-Find out the numbers of seconds elapsed from January 1, 1970 to now.
-*/
+console.log(now.getDate())  
+console.log(now.getDate() + '/' + now.getMonth() + '/' + now.getFullYear())
+console.log(now.getDate())  
+console.log(now.getHours())
+console.log(now.getMinutes())
+console.log(allSeconds())
 
 
 
