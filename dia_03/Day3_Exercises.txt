@@ -75,10 +75,14 @@ console.log(now.getMinutes())
 
 ||======================================= NIVEL 02 =======||
 ||======================================= QUESTION 01 ====||
-Escreva um script que peça ao usuário para inserir a base e a altura do triângulo e calcular a 
-área de um triângulo (área = 0,5 x b x h).
+let base = prompt('Base do triângulo:')
+console.log(base)
 
-Insira a base: 20
-Insira a altura: 10
-A área do triângulo é 50
+let altura = prompt('Altura do triângulo:')
+console.log(altura)
+
+let area = 0.5 * base * altura
+console.log(area)
+
+||======================================= QUESTION 02 ====||
 
