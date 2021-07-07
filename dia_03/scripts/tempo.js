@@ -165,4 +165,38 @@ let suaIdade = 25
 
 let idade = minhaIdade - suaIdade
 console.log("Eu sou " + idade + " anos mais velho que você.")
+
+
+//13
+const now = new Date
+let anoAtual = now.getUTCFullYear()
+
+anoNascimento = prompt("Informe o ano de nascimento: ")
+let idade = anoAtual - anoNascimento
+
+console.log("Ano atual: " + anoAtual)
+console.log("Nascimento: " + anoNascimento)
+console.log("Sua idade é " + idade)
+
+if (idade >= 18) {
+    console.log("Você já tem idade para o exame de CNH")
+} else {
+    console.log("Você ainda não tem idade para o exame de CNH")
+}
 */
+
+//14
+//const now = new Date()
+//let anos = prompt("Informe os anos: ") //100
+//console.log(now.getSeconds())
+
+const now = new Date()
+console.log(now)
+console.log(now.getUTCFullYear())//ano
+console.log(now.getMonth())
+console.log(now.getDate())
+console.log(now.getDate() + '/' + now.getMonth() + '/' + now.getFullYear())
+console.log(now.getDate())
+console.log(now.getHours())
+console.log(now.getMinutes())
+console.log("Segundos: " + now.getSeconds())
