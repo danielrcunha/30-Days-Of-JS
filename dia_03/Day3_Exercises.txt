@@ -138,5 +138,25 @@ if (nome.length <= 7) {
 }
 
 ||========= NIVEL 02 ==================== QUESTION 11 ====||
+let nome = prompt("Informe seu nome: ")
+let sobrenome = prompt("Informe seu sobrenome: ")
 
+console.log(nome + " tem " + nome.length + " caracteres")
+console.log(sobrenome + " tem " + sobrenome.length + " caracteres")
 
+if (nome.length > sobrenome.length) {
+    console.log("Seu primeiro nome, " + nome + " é mais longo do que seu sobrenome " + sobrenome + " .")
+} else if (nome.length == sobrenome.length) {
+    console.log("Seu primeiro nome, " + nome + " tem o mesmo nº de caractere com " + sobrenome + " .")
+} else if (sobrenome.length > nome.length) {
+    console.log("Seu segundo nome, " + sobrenome + " é mais longo do que seu nome " + nome + " .")
+}
+
+||========= NIVEL 02 ==================== QUESTION 12 ====||
+let minhaIdade = 250
+let suaIdade = 25
+
+let idade = minhaIdade - suaIdade
+console.log("Eu sou " + idade + " anos mais velho que você.")
+
+||========= NIVEL 02 ==================== QUESTION 13 ====||
