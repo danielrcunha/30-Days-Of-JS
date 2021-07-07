@@ -66,29 +66,58 @@ const now = new Date()
 console.log(now)
 console.log(now.getUTCFullYear())
 console.log(now.getMonth())
-console.log(now.getDate())  
+console.log(now.getDate())
 console.log(now.getDate() + '/' + now.getMonth() + '/' + now.getFullYear())
-console.log(now.getDate())  
+console.log(now.getDate())
 console.log(now.getHours())
 console.log(now.getMinutes())
 
-*/
+
 
 //nivel 02
 //01
 let base = prompt('Base do triângulo:')
-console.log(base)
+console.log(base)//20
 
 let altura = prompt('Altura do triângulo:')
-console.log(altura)
+console.log(altura)//10
 
-let area = 0.5 * base * altura
+let area = (0.5 * base * altura) / 2
 console.log(area)
 
 
+//02
+let a = parseInt(prompt("Informe lado A:"))
+let b = parseInt(prompt("Informe lado B:"))
+let c = parseInt(prompt("Informe lado C:"))
+
+let perimetro = (a + b + c)
+console.log("O perímetro do triângulo é " + perimetro)
 
 
+//03
+let comprimento = parseInt(prompt("Informe comprimento do retângulo:"))
+let largura = parseInt(prompt("Informe largura do retângulo:"))
+
+let area = comprimento * largura
+let perimetro = 2 * (comprimento + largura)
+
+console.log("Área: " + area)
+console.log("Perimetro: " + perimetro)
 
 
+//04
+//área = pi xrxr
+const pi = 3.14
+let r = parseInt(prompt("Informe a raio:"))
+let area = pi * r * r
+
+//circunferência de um círculo = c = 2 x pi xr
+let circunferência = (2 * pi * r)
+
+console.log(area)
+console.log(circunferência)
+
+*/
 
 

@@ -74,15 +74,44 @@ console.log(now.getHours())
 console.log(now.getMinutes())
 
 ||======================================= NIVEL 02 =======||
-||======================================= QUESTION 01 ====||
+||========= NIVEL 02 ==================== QUESTION 01 ====||
 let base = prompt('Base do triângulo:')
-console.log(base)
+console.log(base)//20
 
 let altura = prompt('Altura do triângulo:')
-console.log(altura)
+console.log(altura)//10
 
-let area = 0.5 * base * altura
+let area = (0.5 * base * altura) / 2
 console.log(area)
 
-||======================================= QUESTION 02 ====||
+||========= NIVEL 02 ==================== QUESTION 02 ====||
+let a = parseInt(prompt("Informe lado A:"))
+let b = parseInt(prompt("Informe lado B:"))
+let c = parseInt(prompt("Informe lado C:"))
 
+let perimetro = (a + b + c)
+console.log("O perímetro do triângulo é " + perimetro)
+
+||========= NIVEL 02 ==================== QUESTION 03 ====||
+let comprimento = parseInt(prompt("Informe comprimento do retângulo:"))
+let largura = parseInt(prompt("Informe largura do retângulo:"))
+
+let area = comprimento * largura
+let perimetro = 2 * (comprimento + largura)
+
+console.log("Área: " + area)
+console.log("Perimetro: " + perimetro)
+
+||========= NIVEL 02 ==================== QUESTION 04 ====||
+//área = pi xrxr
+const pi = 3.14
+let r = parseInt(prompt("Informe a raio:"))
+let area = pi * r * r
+
+//circunferência de um círculo = c = 2 x pi xr
+let circunferência = (2 * pi * r)
+
+console.log(area)
+console.log(circunferência)
+
+||========= NIVEL 02 ==================== QUESTION 05 ====||
