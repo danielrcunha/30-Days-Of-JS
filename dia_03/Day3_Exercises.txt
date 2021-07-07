@@ -115,3 +115,28 @@ console.log(area)
 console.log(circunferência)
 
 ||========= NIVEL 02 ==================== QUESTION 05 ====||
+
+||========= NIVEL 02 ==================== QUESTION 08 ====||
+let x = 3
+let y = x ** 2 + 6 * x + 9
+console.log(y)
+
+||========= NIVEL 02 ==================== QUESTION 09 ====||
+let qtd_hora = parseInt(prompt("Insira as horas:"))  //40
+let taxa_hora = parseInt(prompt("Insira a taxa por hora:"))  //28
+let ganho_semanal = qtd_hora * taxa_hora
+
+console.log("Seu ganho semanal é", +ganho_semanal)
+
+||========= NIVEL 02 ==================== QUESTION 10 ====||
+let nome = prompt("Informe seu nome: ")
+
+if (nome.length <= 7) {
+    console.log("O nome " + nome + " possui " + nome.length + " caracteres, considerado curto!")
+} else {
+    console.log("O nome " + nome + " possui " + nome.length + " caracteres, considerado longo!")
+}
+
+||========= NIVEL 02 ==================== QUESTION 11 ====||
+
+

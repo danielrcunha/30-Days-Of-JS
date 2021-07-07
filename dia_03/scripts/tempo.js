@@ -118,6 +118,29 @@ let circunferência = (2 * pi * r)
 console.log(area)
 console.log(circunferência)
 
+
+
+//08
+let x = 3
+let y = x ** 2 + 6 * x + 9
+console.log(y)
+
+
+//09
+let qtd_hora = parseInt(prompt("Insira as horas:"))  //40
+let taxa_hora = parseInt(prompt("Insira a taxa por hora:"))  //28
+let ganho_semanal = qtd_hora * taxa_hora
+
+console.log("Seu ganho semanal é", +ganho_semanal)
+
+//10
+let nome = prompt("Informe seu nome: ")
+
+if (nome.length <= 7) {
+    console.log("O nome " + nome + " possui " + nome.length + " caracteres, considerado curto!")
+} else {
+    console.log("O nome " + nome + " possui " + nome.length + " caracteres, considerado longo!")
+}
 */
 
-
+//11
