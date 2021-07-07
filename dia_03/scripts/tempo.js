@@ -186,17 +186,6 @@ if (idade >= 18) {
 */
 
 //14
-//const now = new Date()
-//let anos = prompt("Informe os anos: ") //100
-//console.log(now.getSeconds())
+//15
 
-const now = new Date()
-console.log(now)
-console.log(now.getUTCFullYear())//ano
-console.log(now.getMonth())
-console.log(now.getDate())
-console.log(now.getDate() + '/' + now.getMonth() + '/' + now.getFullYear())
-console.log(now.getDate())
-console.log(now.getHours())
-console.log(now.getMinutes())
-console.log("Segundos: " + now.getSeconds())
+
