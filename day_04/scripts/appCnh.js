@@ -50,7 +50,39 @@ switch (opcao) {
     default:
         alert("Você escolheu uma opção invalida!")
 }
-*/
+
 //4
+let num = parseInt(prompt("Informe o número:"))
+
+if (num % 2 == 0) {
+    alert("PAR")
+} else {
+    alert("IMPAR")
+}
+*/
+//1 - NÍVEL 2
+let controle = 0
+let pontos
+
+do {
+    pontos = parseInt(prompt("Informe a quantidade de pontos: \n80-100 = A, \n70-89 = B, \n60-69 = C, \n50-59 = D, \n 0-49 = F"))
 
 
+    if ((pontos >= 0) && (pontos <= 49)) {
+        alert("Nota: F")
+    }
+    else if ((pontos >= 50) && (pontos <= 59)) {
+        alert("Nota: D")
+    }
+    else if ((pontos >= 60) && (pontos <= 69)) {
+        alert("Nota: C")
+    }
+    else if ((pontos >= 70) && (pontos <= 89)) {
+        alert("Nota: B")
+    }
+    else if ((pontos >= 80) && (pontos <= 100)) {
+        alert("Nota: A")
+    }
+
+} while (controle < 1)
+alert("FIM")
