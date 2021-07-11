@@ -59,7 +59,7 @@ if (num % 2 == 0) {
 } else {
     alert("IMPAR")
 }
-*/
+
 //1 - NÍVEL 2
 let controle = 0
 let pontos
@@ -84,5 +84,71 @@ do {
         alert("Nota: A")
     }
 
-} while (controle < 1)
+} while (controle <= 100)
 alert("FIM")
+
+
+//2 - NÍVEL 2
+let mes = prompt("Digite o mês:")
+
+if ((mes == "Dezembro") || (mes == "Janeiro") || (mes == "Fevereiro")) {
+    console.log("Você digitou " + mes + ", então, estamos na estãção do inverno")
+}
+else if ((mes == "Setembro") || (mes == "Outubro") || (mes == "Novembro")) {
+    console.log("Você digitou " + mes + ", então, estamos na estãção do outono")
+}
+else if ((mes == "Março") || (mes == "Abril") || (mes == "Maio")) {
+    console.log("Você digitou " + mes + ", então, estamos na estãção da primavera")
+}
+else if ((mes == "Junho") || (mes == "Julho") || (mes == "Agosto")) {
+    console.log("Você digitou " + mes + ", então, estamos na estãção da verão")
+}
+else {
+    console.log("Mês invalido")
+}
+
+
+//3 - NÍVEL 2
+let dia = prompt("Digite o dia da semana:")
+
+if ((dia == "Sábado") || (dia == "Domingo")) {
+    console.log("Você digitou " + dia + ", então, hoje é folga")
+}
+else if ((dia == "Segunda-feira") || (dia == "Terça-feira") || (dia == "Quarta-feira") || (dia == "Quinta-feira") || (dia == "Sexta-feira")) {
+    console.log("Você digitou " + dia + ", então, hoje é dia de trabalho")
+}
+else {
+    console.log("dia invalido")
+}
+*/
+
+//1 - NÍVEL 3
+let dayUserInput = prompt('What day is today ?')
+let day = dayUserInput.toLowerCase()
+
+switch (day) {
+    case 'monday':
+        console.log('Today is Monday')
+        break
+    case 'tuesday':
+        console.log('Today is Tuesday')
+        break
+    case 'wednesday':
+        console.log('Today is Wednesday')
+        break
+    case 'thursday':
+        console.log('Today is Thursday')
+        break
+    case 'friday':
+        console.log('Today is Friday')
+        break
+    case 'saturday':
+        console.log('Today is Saturday')
+        break
+    case 'sunday':
+        console.log('Today is Sunday')
+        break
+    default:
+        console.log('It is not a week day.')
+}
+
