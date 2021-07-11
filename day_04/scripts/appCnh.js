@@ -127,13 +127,42 @@ let recebeMes = prompt("Digite o mês:")
 let mes = recebeMes.toLowerCase()
 
 switch (mes) {
-    case 'dezembro':
-        console.log("Dezembro")
-        break;
     case 'janeiro':
-        console.log("Janeiro")
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
         break;
-
+    case 'fevereiro':
+        console.log("Você digitou " + mes + ", esse mês tem 28 dias, mas em anos bissextos tem 29 dias")
+        break;
+    case 'março':
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
+        break;
+    case 'abril':
+        console.log("Você digitou " + mes + ", esse mês tem 30 dias")
+        break;
+    case 'maio':
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
+        break;
+    case 'junho':
+        console.log("Você digitou " + mes + ", esse mês tem 30 dias")
+        break;
+    case 'julho':
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
+        break;
+    case 'agosto':
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
+        break;
+    case 'setembro':
+        console.log("Você digitou " + mes + ", esse mês tem 30 dias")
+        break;
+    case 'outubro':
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
+        break;
+    case 'novembro':
+        console.log("Você digitou " + mes + ", esse mês tem 30 dias")
+        break;
+    case 'dezembro':
+        console.log("Você digitou " + mes + ", esse mês tem 31 dias")
+        break;
     default:
         console.log("Mês invalido")
         break;
