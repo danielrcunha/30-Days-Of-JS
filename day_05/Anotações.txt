@@ -1,9 +1,0 @@
-SLICE: copia os elementos do array
-
-exemplo:
-console.log("SLICE: "+itCompanies.slice())
-console.log("SLICE: "+itCompanies.slice(0))
-console.log("SLICE: "+itCompanies.slice(0, itCompanies.length))
-console.log("SLICE: "+itCompanies.slice(0, 6))
-console.log("SLICE: "+itCompanies.slice(6))
-console.log("SLICE: "+itCompanies.slice(0, 6) +" e "+itCompanies.slice(6) +" são grandes empresas")
