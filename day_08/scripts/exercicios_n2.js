@@ -50,12 +50,21 @@ const users = {
     },
 
     getFullname: function () {
-        return `Alex: ${this.Alex.skills.length} \nAsab: ${this.Asab.skills.length}`
+        return `Alex: ${this.Alex.skills.length} \nAsab: ${this.Asab.skills.length} \nBrook: ${this.Brook.skills.length} \nDaniel: ${this.Daniel.skills.length}`
     }
 }
 
 
 //01 questão do N2 - INCOMPLETO
-console.log(users.getFullname());
+
+
+
+
+
+
+
+
+
+
 
 
