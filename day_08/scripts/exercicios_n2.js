@@ -1,6 +1,6 @@
-const users = {
-    Alex: {
-        email: 'alex@alex.com',
+const users = { //objeto
+    Alex: { //propriedade ou chave(key)
+        email: 'alex@alex.com', //propriedade e valor
         skills: ['HTML', 'CSS', 'JavaScript'],
         age: 20,
         isLoggedIn: false,
@@ -50,12 +50,21 @@ const users = {
     },
 
     getFullname: function () {
-        return `Alex: ${this.Alex.skills.length} \nAsab: ${this.Asab.skills.length} \nBrook: ${this.Brook.skills.length} \nDaniel: ${this.Daniel.skills.length}`
+        return `Alex: ${this.Alex.skills.length} \nAsab: ${this.Asab.skills.length} \nBrook: ${this.Brook.skills.length} \nDaniel: ${this.Daniel.skills.length} \nJohn: ${this.John.skills.length}`
     }
 }
 
 
 //01 questão do N2 - INCOMPLETO
+console.log('1º QUESTÃO N2 :: NÃO RESOLVIDA')
+console.log(users.Alex.skills.length)
+console.log(users.Asab.skills.length) * /
+
+
+console.log('2º QUESTÃO N2 :: EM ANDAMENTO');
+
+
+
 
 
 
