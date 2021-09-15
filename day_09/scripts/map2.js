@@ -10,20 +10,17 @@ retorno de chamada com elementos, índice, parâmetro de matriz e retorna uma no
 
 console.log('FUNÇÃO MAP(mapa)')
 
-const numbers = [1,2,3,4,5,6];
-
-const dobraNumeros = numbers.map(function( elem){
-    return elem * 2
+const fahrenheit = [0,32,45,59,75,80,120]
+const celsius = fahrenheit.map(function(elem){
+    return Math.round((elem - 32)*5/9)
 })
 
-console.log('Array Original: '+ numbers)
-console.log('Array Dobro:'+ dobraNumeros)
+console.log('fahrenheit: '+fahrenheit)
+console.log('celsius: '+celsius)
 
-console.log('\nFUNÇÃO MAP(mapa) - Mesma ideia, mas usando hero function')
+console.log('\nFUNÇÃO MAP(mapa) - 2º exemplo')
+const fahrenheit2 = [0,32,45,59,75,80,120]
+const celsius2 = fahrenheit2.map(elem => Math.round((elem - 32)*5/9))
 
-const numbers2 = [7,8,9,10,11,12];
-
-const dobraNumeros2 = numbers2.map(num => num * 2)
-
-console.log('Array Original: '+ numbers2)
-console.log('Array Dobro:'+ dobraNumeros2)
+console.log('fahrenheit: '+fahrenheit2)
+console.log('celsius: '+celsius2)
