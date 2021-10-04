@@ -77,6 +77,16 @@ class Person {
         const fullName = this.fistname + " " + this.lastname
         return fullName
     }
+
+    getPontuacao() {
+        const fullPontuacao = this.pontuacao
+        return fullPontuacao
+    }
+
+    getHabilidades() {
+        const fullHabilidade = this.habilidades
+        return fullHabilidade
+    }
 }
 
 const person1 = new Person('Asabeneh', 'Yetayeh', 250, 'Finland', 'Helsinki')
@@ -85,10 +95,12 @@ const person2 = new Person('Lidiya', 'Tekle', 28, 'Finland', 'Espoo')
 console.log(person1.getFullName())
 console.log(person2.getFullName())
 
-console.log(person1.pontuacao)
-console.log(person1.habilidades)
+console.log("Pontuação Pessoa 01: " + person1.pontuacao)
+console.log("Pontuação Pessoa 02: " + person2.pontuacao)
 
-console.log(person2.pontuacao)
-console.log(person2.habilidades)
+console.log("Habilidades Pessoa 01: " + person1.habilidades)
+console.log("Habilidades Pessoa 02: " + person2.habilidades)
 
-PAREI NO getter
+
+
+
